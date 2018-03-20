@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Black Panther Trivia Game</title>
+
+		<!-- Link in CSS Files -->
+		<link rel="stylesheet" type="text/css" href="./assets/style.css">
+
+	</head>
+	<body>
+
+		<!-- Start of the game -->
+		<div id="start_container">
+			<h1 class="logo">The Black Panther Trivia</h1>
+
+			<button id="start_button">Start</button>
+		</div>
+
+		<div id="game_container">
+
+			<!-- Game timer start here -->
+			<h2 id="timer_line">Time Remaining: <span id="timer_number">60 Seconds</span></h1>
+
+			<!-- Game questions start here -->
+
+			<h3>1. What is the material that The Black Panther's uniform is made of?</h3>
+				<input type="radio" name="q1" value="Graphene">Graphene <br />
+				<input type="radio" name="q1" value="Vibranium">Vibranium <br />
+				<input type="radio" name="q1" value="Titanium">Titanium  <br />
+				<input type="radio" name="q1" value="Dyneema">Dyneema <br />
+				
+			<h3>2. In the comic, who was The Black Panther briefly married to? </h3>
+				<input type="radio" name="q2" value="Dr. Cecilia Reyes">Dr. Cecilia Reyes <br />
+				<input type="radio" name="q2" value="Vixen">Vixen <br />
+				<input type="radio" name="q2" value="Cat Woman">Cat Woman <br />
+				<input type="radio" name="q2" value="Storm">Storm <br />
+
+			<h3>3. Who were the creators of Black Panther?</h3>
+				<input type="radio" name="q3" value="Stan Lee and Jack Kirby">Stan Lee and Jack Kirby <br />
+				<input type="radio" name="q3" value="Frank Miller and Steve Ditko">Frank Miller and Steve Ditko <br />
+				<input type="radio" name="q3" value="Jim Steranko and Dave Gibbons">Jim Steranko and Dave Gibbons <br />
+				<input type="radio" name="q3" value="Steve Dillon and John Romita Jr">Steve Dillon and John Romita Jr  <br />
+
+			<h3>4. When was The Black Panther's first appearnace?</h3>
+				<input type="radio" name="q4" value="1966">1966, Fantastic Four, Vol. 1 #52 <br />
+				<input type="radio" name="q4" value="1968">1968, Tales of Suspense #97 <br />
+				<input type="radio" name="q4" value="1969">1969, The Avengers #62 <br />
+				<input type="radio" name="q4" value="1976">1976, Jungle Action #19 <br />
+				<input type="radio" name="q4" value="1977">1977, Black Panther #1 <br />
+
+			<h3>5. Who is Dora Milaje to T'Challa?</h3>
+				<input type="radio" name="q5" value="villain">A villain <br />
+				<input type="radio" name="q5" value="love">His love interest <br />
+				<input type="radio" name="q5" value="guard">His guard <br />
+				<input type="radio" name="q5" value="sister">His sister <br />
+				<input type="radio" name="q5" value="mother">His mother <br />
+			
+			<h3>6. Where does the Black Panther get his enhanced abilities from? </h3>
+				<input type="radio" name="q6" value="necklace">The necklace <br />
+				<input type="radio" name="q6" value="father">His father <br />
+				<input type="radio" name="q6" value="herb">The Heart-Shaped Herb <br />
+				<input type="radio" name="q6" value="panther">A black panther <br />
+				
+			<h3>7. What is the name of T'Challa's sister?</h3>
+				<input type="radio" name="q7" value="Shuri">Shuri <br />
+				<input type="radio" name="q7" value="Sue">Sue <br />
+				<input type="radio" name="q7" value="Dora">Dora <br />
+				<input type="radio" name="q7" value="Storm">Storm <br />
+
+			<h3>8. What is the name of T'Challa's father?</h3>
+				<input type="radio" name="q8" value="Bruce">Bruce Wayne <br />
+				<input type="radio" name="q8" value="T'Chaka">T'Chaka <br />
+				<input type="radio" name="q8" value="T'Chana">T'Chana <br />
+				<input type="radio" name="q8" value="M'Baku">M'Baku <br />
+
+			<h3>9. What is the name of the technological advanced African country?</h3>
+				<input type="radio" name="q9" value="Wamanda">Wamanda <br />
+				<input type="radio" name="q9" value="Kenya">Kenya <br />
+				<input type="radio" name="q9" value="Nigeria">Nigeria <br />
+				<input type="radio" name="q9" value="Wakanda">Wakanda <br />
+
+			<h3>10. Who is the director of Black Panther the movie?</h3>
+				<input type="radio" name="q10" value="Gray">F Gary Gray <br />
+				<input type="radio" name="q10" value="Coogler">Ryan Coogler <br />
+				<input type="radio" name="q10" value="Waititi">Taika Waititi <br />
+				<input type="radio" name="q10" value="Whedon">Joss Whedon <br />
+
+				
+
+			<p><button id="done_button">Submit</button></p>
+
+		</div>
+
+		<!-- End of the game -->
+		<div id="end_container">
+			<h1 id="done">Game Over!</h1>
+			<br />
+
+			<h1>Correct Answers: <span id="correct_answers">0</span></h1>
+			<h1>Incorrect Answers: <span id="wrong_answers">0</span></h1>
+			<h1>Unanswered: <span id="unanswered">0</span></h1>
+		</div>
+			
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+		<script src="./assets/app.js"></script>
+		
+	</body>
+</html>
