@@ -5,88 +5,617 @@
 
 		<!-- Link in CSS Files -->
 		<link rel="stylesheet" type="text/css" href="./assets/style.css">
-
+		<link href="https://fonts.googleapis.com/css?family=Bangers|Ubuntu" rel="stylesheet">
 	</head>
 	<body>
 
 		<!-- Start of the game -->
 		<div id="start_container">
+			<img src="./assets/2127628_0.png" alt="The Black Panther">
 			<h1 class="logo">The Black Panther Trivia</h1>
 
 			<button id="start_button">Start</button>
 		</div>
 
 		<div id="game_container">
-
+		<div id="sticky">
+			<h1 class="logo">The Black Panther Trivia</h1>
 			<!-- Game timer start here -->
 			<h2 id="timer_line">Time Remaining: <span id="timer_number">60 Seconds</span></h1>
-
+		</div>
+			<br /> <br />
 			<!-- Game questions start here -->
-
 			<h3>1. What is the material that The Black Panther's uniform is made of?</h3>
-				<input type="radio" name="q1" value="Graphene">Graphene <br />
-				<input type="radio" name="q1" value="Vibranium">Vibranium <br />
-				<input type="radio" name="q1" value="Titanium">Titanium  <br />
-				<input type="radio" name="q1" value="Dyneema">Dyneema <br />
-				
+			<ul>
+			<li>
+				<input type="radio" name="q1" value="Graphene">
+				<label>Graphene</label>
+				<div class="bullet">
+					<div class="line zero"></div>
+					<div class="line one"></div>
+					<div class="line two"></div>
+					<div class="line three"></div>
+					<div class="line four"></div>
+					<div class="line five"></div>
+					<div class="line six"></div>
+					<div class="line seven"></div>
+				</div>
+				</li>
+				<li>
+						<input type="radio" name="q1" value="Vibranium">
+						<label>Vibranium</label>
+						<div class="bullet">
+							<div class="line zero"></div>
+							<div class="line one"></div>
+							<div class="line two"></div>
+							<div class="line three"></div>
+							<div class="line four"></div>
+							<div class="line five"></div>
+							<div class="line six"></div>
+							<div class="line seven"></div>
+						</div>
+						</li>
+				<li>
+				<input type="radio" name="q1" value="Titanium">
+				<label>Titanium</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+					</div>
+				</li>
+				<li>
+				<input type="radio" name="q1" value="Dyneema">
+				<label>Dyneema</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+					</div>
+				</li>
+				</ul>
 			<h3>2. In the comic, who was The Black Panther briefly married to? </h3>
-				<input type="radio" name="q2" value="Dr. Cecilia Reyes">Dr. Cecilia Reyes <br />
-				<input type="radio" name="q2" value="Vixen">Vixen <br />
-				<input type="radio" name="q2" value="Cat Woman">Cat Woman <br />
-				<input type="radio" name="q2" value="Storm">Storm <br />
-
+			<ul>
+				<li>
+				<input type="radio" name="q2" value="Dr. Cecilia Reyes">
+				<label>Dr. Cecilia Reyes</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				<li>
+				<input type="radio" name="q2" value="Vixen">
+				<label>Vixen</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				<li>
+				<input type="radio" name="q2" value="Cat Woman">
+				<label>Cat Woman</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				<li>
+				<input type="radio" name="q2" value="Storm">
+				<label>Storm</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				</ul>
 			<h3>3. Who were the creators of Black Panther?</h3>
-				<input type="radio" name="q3" value="Stan Lee and Jack Kirby">Stan Lee and Jack Kirby <br />
-				<input type="radio" name="q3" value="Frank Miller and Steve Ditko">Frank Miller and Steve Ditko <br />
-				<input type="radio" name="q3" value="Jim Steranko and Dave Gibbons">Jim Steranko and Dave Gibbons <br />
-				<input type="radio" name="q3" value="Steve Dillon and John Romita Jr">Steve Dillon and John Romita Jr  <br />
-
+			<ul>
+				<li>
+				<input type="radio" name="q3" value="Stan Lee and Jack Kirby">
+				<label>Stan Lee and Jack Kirby</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				<li>
+				<input type="radio" name="q3" value="Frank Miller and Steve Ditko">
+				<label>Frank Miller and Steve Ditko</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				<li>
+				<input type="radio" name="q3" value="Jim Steranko and Dave Gibbons">
+				<label>Jim Steranko and Dave Gibbons</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				<li>
+				<input type="radio" name="q3" value="Steve Dillon and John Romita Jr">
+				<label>Steve Dillon and John Romita Jr</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				</ul>
+				
 			<h3>4. When was The Black Panther's first appearnace?</h3>
-				<input type="radio" name="q4" value="1966">1966, Fantastic Four, Vol. 1 #52 <br />
-				<input type="radio" name="q4" value="1968">1968, Tales of Suspense #97 <br />
-				<input type="radio" name="q4" value="1969">1969, The Avengers #62 <br />
-				<input type="radio" name="q4" value="1976">1976, Jungle Action #19 <br />
-				<input type="radio" name="q4" value="1977">1977, Black Panther #1 <br />
-
+			<ul>
+				<li>
+				<input type="radio" name="q4" value="1966">
+				<label>1966, Fantastic Four, Vol. 1 #52</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				<li>
+				<input type="radio" name="q4" value="1969">
+				<label>1969, The Avengers #62</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				<li>
+				<input type="radio" name="q4" value="1976">
+				<label>1976, Jungle Action #19</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				<li>
+				<input type="radio" name="q4" value="1977">
+				<label>1977, Black Panther #1</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				</ul>
 			<h3>5. Who is Dora Milaje to T'Challa?</h3>
-				<input type="radio" name="q5" value="villain">A villain <br />
-				<input type="radio" name="q5" value="love">His love interest <br />
-				<input type="radio" name="q5" value="guard">His guard <br />
-				<input type="radio" name="q5" value="sister">His sister <br />
-				<input type="radio" name="q5" value="mother">His mother <br />
-			
+			<ul>
+				<li>
+				<input type="radio" name="q5" value="villain">
+				<label>A villain</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				<li>
+				<input type="radio" name="q5" value="love">
+				<label>His love interest</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				<li>
+				<input type="radio" name="q5" value="guard">
+				<label>His guard</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				<li>
+				<input type="radio" name="q5" value="sister">
+				<label>His sister</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				</ul>
 			<h3>6. Where does the Black Panther get his enhanced abilities from? </h3>
-				<input type="radio" name="q6" value="necklace">The necklace <br />
-				<input type="radio" name="q6" value="father">His father <br />
-				<input type="radio" name="q6" value="herb">The Heart-Shaped Herb <br />
-				<input type="radio" name="q6" value="panther">A black panther <br />
-				
+			<ul>
+				<li>
+				<input type="radio" name="q6" value="necklace">
+				<label>The necklace</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				<li>
+				<input type="radio" name="q6" value="father">
+				<label>His father</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				<li>
+				<input type="radio" name="q6" value="herb">
+				<label>The Heart-Shaped Herb</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				<li>
+				<input type="radio" name="q6" value="panther">
+				<label>A black panther</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				</ul>
 			<h3>7. What is the name of T'Challa's sister?</h3>
-				<input type="radio" name="q7" value="Shuri">Shuri <br />
-				<input type="radio" name="q7" value="Sue">Sue <br />
-				<input type="radio" name="q7" value="Dora">Dora <br />
-				<input type="radio" name="q7" value="Storm">Storm <br />
-
+			<ul>
+				<li>
+				<input type="radio" name="q7" value="Shuri">
+				<label>Shuri</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				<li>
+				<input type="radio" name="q7" value="Sue">
+				<label>Sue</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				<li>
+				<input type="radio" name="q7" value="Dora">
+				<label>Dora</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				<li>
+				<input type="radio" name="q7" value="Storm">
+				<label>Storm</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				</ul>
 			<h3>8. What is the name of T'Challa's father?</h3>
-				<input type="radio" name="q8" value="Bruce">Bruce Wayne <br />
-				<input type="radio" name="q8" value="T'Chaka">T'Chaka <br />
-				<input type="radio" name="q8" value="T'Chana">T'Chana <br />
-				<input type="radio" name="q8" value="M'Baku">M'Baku <br />
-
+			<ul>
+				<li>
+				<input type="radio" name="q8" value="Bruce">
+				<label>Bruce Wayne</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				<li>
+				<input type="radio" name="q8" value="T'Chaka">
+				<label>T'Chaka</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				<li>
+				<input type="radio" name="q8" value="T'Chana">
+				<label>T'Chana</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				<li>
+				<input type="radio" name="q8" value="M'Baku">
+				<label>M'Baku</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				</ul>
 			<h3>9. What is the name of the technological advanced African country?</h3>
-				<input type="radio" name="q9" value="Wamanda">Wamanda <br />
-				<input type="radio" name="q9" value="Kenya">Kenya <br />
-				<input type="radio" name="q9" value="Nigeria">Nigeria <br />
-				<input type="radio" name="q9" value="Wakanda">Wakanda <br />
-
+			<ul>
+				<li>
+				<input type="radio" name="q9" value="Wamanda">
+				<label>Wamanda</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				<li>
+				<input type="radio" name="q9" value="Kenya">
+				<label>Kenya</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				<li>
+				<input type="radio" name="q9" value="Nigeria">
+				<label>Nigeria</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				<li>
+				<input type="radio" name="q9" value="Wakanda">
+				<label>Wakanda</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				</ul>
 			<h3>10. Who is the director of Black Panther the movie?</h3>
-				<input type="radio" name="q10" value="Gray">F Gary Gray <br />
-				<input type="radio" name="q10" value="Coogler">Ryan Coogler <br />
-				<input type="radio" name="q10" value="Waititi">Taika Waititi <br />
-				<input type="radio" name="q10" value="Whedon">Joss Whedon <br />
-
-				
-
+			<ul>
+				<li>
+				<input type="radio" name="q10" value="Gray">
+				<label>F Gary Gray</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				<li>
+				<input type="radio" name="q10" value="Coogler">
+				<label>Ryan Coogler</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				<li>
+				<input type="radio" name="q10" value="Waititi">
+				<label>Taika Waititi</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				<li>
+				<input type="radio" name="q10" value="Whedon">
+				<label>Joss Whedon</label>
+				<div class="bullet">
+						<div class="line zero"></div>
+						<div class="line one"></div>
+						<div class="line two"></div>
+						<div class="line three"></div>
+						<div class="line four"></div>
+						<div class="line five"></div>
+						<div class="line six"></div>
+						<div class="line seven"></div>
+				</div>
+				</li>
+				</ul>
 			<p><button id="done_button">Submit</button></p>
 
 		</div>

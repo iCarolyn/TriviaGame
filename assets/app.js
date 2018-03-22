@@ -6,6 +6,8 @@ var correctCount = 0;
 var wrongCount = 0;
 var unansweredCount = 0;
 
+// I couldn't figure out how to reset the radio buttons for a new game
+
 $(document).ready(function(){
 
 	// Intialize the game with hidden divs
