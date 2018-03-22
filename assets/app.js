@@ -184,7 +184,14 @@ $(document).ready(function(){
 		// Show the completed score div
 		$("#end_container").show();
 
+		// Remove previous checked radio buttons
+		$("input:radio").removeAttr("checked");
 		window.scrollTo(0, 550);
+
+
+		$("#startover_button").on("click", function(){
+		location.reload();
+	});
 
 	}
 

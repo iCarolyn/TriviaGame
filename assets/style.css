@@ -51,7 +51,7 @@ button {
     padding: 20px;
 }
 
-#start_button, #done_button {
+#start_button, #done_button, #startover_button {
     background-color: #9c36f7;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
     line-height: 32px;
