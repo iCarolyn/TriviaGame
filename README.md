@@ -7,3 +7,5 @@ To-do List:
 
 INSTRUCTIONS:
 Answer the questions within 60 seconds.
+
+Play the game here: https://icarolyn.github.io/TriviaGame/
