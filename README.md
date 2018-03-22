@@ -1,6 +1,5 @@
 # TriviaGame
-The Black Panther Trivia Game
-A Black Panther JavaScript trivia game using timers
+The Black Panther Trivia Game using timers
 
 To-do List:
 1. Randomize questions
